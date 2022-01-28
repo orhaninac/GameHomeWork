@@ -1,8 +1,8 @@
 package gameSalesSystem.business.concrates;
 
+import gameSalesSystem.adapter.abstracts.CheckRealPersonService;
 import gameSalesSystem.business.abstracts.CampaignService;
 import gameSalesSystem.business.abstracts.SaleService;
-import gameSalesSystem.core.abstracts.CheckRealPersonService;
 import gameSalesSystem.dataAccess.abstracts.SaleDao;
 import gameSalesSystem.entities.concrates.Campaign;
 import gameSalesSystem.entities.concrates.Game;

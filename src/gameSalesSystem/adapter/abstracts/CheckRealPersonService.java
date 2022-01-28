@@ -1,4 +1,4 @@
-package gameSalesSystem.core.abstracts;
+package gameSalesSystem.adapter.abstracts;
 
 import gameSalesSystem.entities.concrates.User;
 

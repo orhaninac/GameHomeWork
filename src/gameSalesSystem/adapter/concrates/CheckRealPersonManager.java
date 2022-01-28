@@ -1,8 +1,8 @@
-package gameSalesSystem.core.concrates;
+package gameSalesSystem.adapter.concrates;
 
 import java.rmi.RemoteException;
 
-import gameSalesSystem.core.abstracts.CheckRealPersonService;
+import gameSalesSystem.adapter.abstracts.CheckRealPersonService;
 import gameSalesSystem.entities.concrates.User;
 import tr.gov.nvi.tckimlik.WS.KPSPublicSoapProxy;
 

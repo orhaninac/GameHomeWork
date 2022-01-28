@@ -3,12 +3,12 @@ package gameSalesSystem;
 import java.util.ArrayList;
 import java.util.Date;
 
+import gameSalesSystem.adapter.abstracts.CheckRealPersonService;
+import gameSalesSystem.adapter.concrates.CheckRealPersonManager;
 import gameSalesSystem.business.concrates.CampaignManager;
 import gameSalesSystem.business.concrates.GameManager;
 import gameSalesSystem.business.concrates.SaleManager;
 import gameSalesSystem.business.concrates.UserManager;
-import gameSalesSystem.core.abstracts.CheckRealPersonService;
-import gameSalesSystem.core.concrates.CheckRealPersonManager;
 import gameSalesSystem.dataAccess.consrates.hibernates.CampaignHibernatesDao;
 import gameSalesSystem.dataAccess.consrates.hibernates.GameHibernatesDao;
 import gameSalesSystem.dataAccess.consrates.hibernates.SaleHibernatesDao;
